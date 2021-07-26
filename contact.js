@@ -8,17 +8,19 @@ const btnSubmit = document.getElementById('submit');
 
 
 const showMessage = () => {
+    /* ambil value dari tiap inputan */
     let name = inputName.value;
     let email = inputEmail.value;
     let phone = inputPhone.value;
     let message  = inputMessage.value;
 
+    /* validasi */
     if(name && email && phone && message) {
         alert(`
-        Nama: ${name}
-        Email: ${email}
-        phone: ${phone}
-        message: ${message}
+            Nama: ${name}
+            Email: ${email}
+            phone: ${phone}
+            message: ${message}
         `);
     } else {
         alert(`Data tidak valid!`);

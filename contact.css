@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0;
+    font-family: 'Vollkorn', sans-serif;
+    color: black;
+    background-image: url('img/subtle_white_feathers_@2X.png');
+    border: solid 1px;
+}
+.contact p{
+    float: right;
+}
+.form{
+    padding: 7px;
+    text-align: center;
+    margin: 100px 500px;
+    background-image: url('img/001361400_1610083119-neon-light-arrow-direction-perspective_1017-22033.jpg');
+}
+input,
+textarea{
+    width: 100%;
+    margin: 10px;
+}
